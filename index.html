@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="viewport" content="width=device-width">
+  <title>Corey Vernot</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrapper">
+
+  <header>
+    <!-- Replace with: <img src="files/photo.jpg" alt="Corey Vernot"> -->
+    <div class="photo-placeholder"></div>
+
+    <h1>Corey Vernot</h1>
+    <p>PhD Student in Public Policy<br>University of Chicago</p>
+
+    <p class="links">
+      <a href="mailto:vernot@uchicago.edu">Email</a>
+      &nbsp;&middot;&nbsp;
+      <a href="files/CV_Corey_Vernot.pdf">CV</a>
+    </p>
+
+    <nav class="section-nav">
+      <a href="#about">About</a>
+      <a href="#research">Research</a>
+      <a href="files/CV_Corey_Vernot.pdf" target="_blank">CV</a>
+    </nav>
+  </header>
+
+  <section>
+
+    <a id="about"></a>
+    <p>
+      I am a PhD student at the Harris School of Public Policy at the University of Chicago.
+      My research focuses on labor markets, seasonal migration, and household welfare
+      in South Asia, with fieldwork based in Nepal.
+      I am an NSF Graduate Research Fellow and Pearson Scholar.
+    </p>
+
+    <hr>
+    <a id="research"></a>
+    <h3><b>Working Papers</b></h3>
+
+    <p>
+      <b>&ldquo;Remittance Frictions and Seasonal Poverty&rdquo;</b>
+      with <a href="https://sites.google.com/view/mushfiqmobarak" target="_blank">Ahmed Mushfiq Mobarak</a>
+      and Arjun Kharel<br>
+      <i>Revise and Resubmit, Quantitative Economics</i>
+      &nbsp;<button class="collapsible">[Abstract]</button>
+      <div class="abstract-content">
+        <p>Remittance frictions interact with seasonal income volatility to generate poverty traps among rural households in Nepal. Using experimental variation in remittance costs, we estimate the effect of reducing frictions on household consumption, savings, and migration decisions.</p>
+      </div>
+    </p>
+
+    <p>
+      <b>&ldquo;Networks, Information, and Migration&rdquo;</b>
+      with <a href="https://sites.google.com/view/mushfiqmobarak" target="_blank">Ahmed Mushfiq Mobarak</a>
+      and <a href="https://sites.google.com/site/ashishshenoy/" target="_blank">Ashish Shenoy</a><br>
+      <i>RCT fieldwork ongoing</i>
+      &nbsp;<a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2149371" target="_blank">[NSF]</a>
+    </p>
+
+    <p>
+      <b>&ldquo;COVID-19 Border Closures and Informal Trade: Evidence from Nepal&rdquo;</b>
+      with <a href="https://sites.google.com/view/mushfiqmobarak" target="_blank">Mushfiq Mobarak</a>,
+      <a href="https://sites.google.com/site/ashishshenoy/" target="_blank">Ashish Shenoy</a>,
+      and Arjun Kharel<br>
+      <i>Data analysis complete</i>
+    </p>
+
+    <hr>
+    <h3><b>Publications</b></h3>
+
+    <p>
+      <b>&ldquo;COVID-19 and Mental Health in 8 Low- and Middle-Income Countries.&rdquo;</b>
+      Aksunger, N., Vernot, C., Littman, R., et al.<br>
+      <i>PLOS Medicine</i> (2023)
+    </p>
+
+    <p>
+      <b>&ldquo;Migration and Resilience during a Global Crisis.&rdquo;</b>
+      Barker, N., Davis, C.A., L&oacute;pez-Pe&ntilde;a, P., et al.<br>
+      <i>European Economic Review</i> 158 (2023)
+    </p>
+
+    <p>
+      <b>&ldquo;COVID-19 through the Lens of Seasonal Agriculture in South Asia.&rdquo;</b>
+      Kharel, A., Mobarak, A.M., Shenoy, A., &amp; Vernot, C.<br>
+      <i>Applied Economic Perspectives and Policy</i> (2023)
+    </p>
+
+    <p>
+      <b>&ldquo;COVID-19 Vaccine Acceptance and Hesitancy in Low- and Middle-Income Countries.&rdquo;</b>
+      Sol&iacute;s Arce, J.S., et al.<br>
+      <i>Nature Medicine</i> 27 (2021)
+    </p>
+
+    <p>
+      <b>&ldquo;Falling Living Standards during the COVID-19 Crisis.&rdquo;</b>
+      Egger, D., Miguel, E., Warren, S.S., et al.<br>
+      <i>Science Advances</i> 7 (2021)
+    </p>
+
+    <p>
+      <b>&ldquo;Migration Costs and Observational Returns to Migration in the Developing World.&rdquo;</b>
+      Lagakos, D., Marshall, S., Mobarak, A.M., Vernot, C., &amp; Waugh, M.E.<br>
+      <i>Journal of Monetary Economics</i> 113 (2020)
+    </p>
+
+  </section>
+
+  <footer>
+    <p>University of Chicago &middot; Harris School of Public Policy</p>
+  </footer>
+
+</div>
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+for (var i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight) {
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    }
+  });
+}
+</script>
+
+</body>
+</html>
