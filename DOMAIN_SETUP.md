@@ -6,8 +6,15 @@ Current repository:
 
 - GitHub repo: `https://github.com/CoreyVernot/CoreyVernot.github.io`
 - Local folder: `C:\Users\vernot\claude-workspace\Dropbox\00.Personal Projects\Academic Website`
-- Custom domain file: `CNAME`
-- Intended domain in `CNAME`: `coreyvernot.com`
+- Custom domain file: not currently present
+- Intended future domain in `CNAME`: `coreyvernot.com`
+
+Important status:
+
+- A `CNAME` file with `coreyvernot.com` was briefly added on 2026-07-03.
+- Because Porkbun DNS was still parked at `uixie.porkbun.com`, GitHub redirected `CoreyVernot.github.io` to the parked Porkbun page.
+- The `CNAME` file was removed so the existing `CoreyVernot.github.io` URL keeps working while DNS setup is unfinished.
+- Re-add `CNAME` only after Porkbun DNS for `coreyvernot.com` points to GitHub Pages.
 
 Domain registrar:
 
@@ -48,5 +55,5 @@ Notes for whoever continues this:
   - `ALIAS coreyvernot.com -> uixie.porkbun.com`
   - `CNAME *.coreyvernot.com -> uixie.porkbun.com`
 - Keep the Porkbun `MX` and SPF `TXT` records only if Corey wants Porkbun email forwarding.
-- In GitHub, check `Settings > Pages` for the repo and make sure the custom domain is `coreyvernot.com`.
+- After Porkbun DNS records are changed, add a `CNAME` file containing only `coreyvernot.com`, or set the custom domain in `Settings > Pages`.
 - Once DNS verification passes in GitHub Pages, enable `Enforce HTTPS`.
