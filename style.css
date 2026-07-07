@@ -81,6 +81,21 @@ header .links a {
   margin: 0 4px;
 }
 
+header .scholar-link {
+  margin: 8px 0 10px;
+}
+
+header .scholar-link a {
+  color: #0b7a75;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+header .scholar-link a:hover {
+  color: #055c58;
+  text-decoration: underline;
+}
+
 header .links a:hover {
   color: #39c;
   text-decoration: underline;
